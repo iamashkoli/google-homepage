@@ -1,0 +1,110 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:'Robot',sans-serif;
+    background-image: url("Images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
+		
+}
+header
+{
+	width:100%;
+	color: white;
+}
+ul
+{
+	list-style:none;
+}
+#nav_bar						/*id selector*/
+{
+	float:right;
+}
+#nav_bar li
+{
+	display:inline-block;
+	padding:8px;
+}
+#nav_bar #sign_in						/*id selector*/
+{
+	background:#4887ef;
+	margin-right:25px;
+	padding:7px 15px;
+	border-radius:3px;
+	font-weight:bold;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
+li.nav-links a:hover
+{
+	text-decoration:underline;
+}
+#sign_in:hover						/*pseudo class selector*/
+	{
+		box-shadow:1px 1px 5px #999;
+	}
+#sign_in
+{
+	color:#fff;
+}
+.google #google_logo					/*class selectors*/
+{
+	text-align:center;
+	display:block;
+	margin:0 auto;
+	clear:both;
+	padding-top:112px;
+	padding-bottom:20px;
+}
+.form
+{
+	text-align:center;
+}
+#textsearch
+{
+	width:450px;
+	line-height:32px;
+	padding:20px;
+}
+.form #textsearch					/*class with id selector*/
+{
+	padding: 5px;
+}
+#textsearch
+{
+	border-color:#e4e4e4;
+	padding-top:0;
+}
+	.button							/*class selector*/
+{
+	text-align:center;
+}
+footer
+{
+	background-color:black;
+	color: white;
+	position:fixed;
+	bottom: 5px;;
+	width:100%;
+	text-align: center;
+}
+footer ul li 						/*combined selectors*/
+{
+	display:inline;
+	font-size:14px;
+	padding:13px;
+}
+footer ul a
+{
+	padding:5px;
+}
+	footer ul a:hover
+{
+	text-decoration:underline;
+}
+	
